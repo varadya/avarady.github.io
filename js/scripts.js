@@ -2,3 +2,8 @@
 console.log('OK');
 
 // Your Awesome Scripts
+
+$('.gallery-1').lightGallery({
+
+    selector: 
+});
