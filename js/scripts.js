@@ -5,5 +5,5 @@ console.log('OK');
 
 $('.gallery-1').lightGallery({
 
-    selector: 
+    selector: 'a'
 });
