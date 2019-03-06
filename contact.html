@@ -32,6 +32,8 @@
     <h1>Contact Me </h1>
 
     <form action="https://formspree.io/allisonvarady@gmail.com" method="POST">
+
+        <!-- Visible Fields -->
         <label for="name">Name</label>
         <input type="text" name="name">
 
@@ -39,7 +41,18 @@
         <input type="email" name="_replyto">
 
         <input type="submit" value="Send">
-      </form>
+
+        <label for="comments"> Comments </label>
+        <textarea name="comments" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="send">
+
+        <!-- Hidden -->
+
+        <input type="hidden" name="_next" value="/">
+      
+    
+    </form>
 
     <nav>
         <ul>
