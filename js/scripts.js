@@ -2,6 +2,7 @@
 console.log('OK');
 
 
+<<<<<<< HEAD
 
 
 //gallery 
@@ -131,3 +132,9 @@ $('.gallery-inner').isotope({
     $('body').removeClass('article-opened');
     var i = 0;
   });
+=======
+$('.gallery-1').lightGallery({
+
+    selector: 'a'
+});
+>>>>>>> parent of cb9a7de... Gallery html, css, and js
