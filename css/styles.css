@@ -12,6 +12,39 @@ body {
 /* PRESENTATION
 * CSS: https://cssreference.io
 */
+
+/* KEY FRAMES */ 
+@keyframes offset {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  /* SVG STYLES */
+ 
+  .cls-1{
+    stroke: white;
+    stroke-width:8;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400; 
+    animation: offset 3s linear forwards;
+   
+  }
+  
+  .cls-2{
+    fill:none;
+    stroke:teal;
+    stroke-width:8;
+    stroke-dasharray: 400;
+    stroke-dashoffset: 400;
+    animation: offset 5s linear forwards;
+   
+  }
+
+
+
+
+
 /* Navigation */
 
 #navBar {
@@ -321,6 +354,10 @@ body {
   /*  ABOUT MYSELF SECTION */
   .about-myself {
       padding: 50px 20px;
+      max-width: 75ch;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 24pt;
   }
   
   .about-myself .content {
@@ -336,17 +373,15 @@ body {
       -webkit-transition: transform .7s;
       -moz-transition: transform .7s;
       transition: transform .7s;
+
   }
   
   .about-myself .content .aboutTitleVisible {
       -webkit-transform: translateY(0px) scale(1);
       transform: translateX(0px) scale(1);
   }
+
   
-  .about-myself .content p span {
-      color: #c0392b;
-      font-weight: bold;
-  }
   
   /*##### RESUME SECTION #####*/
   .resume {

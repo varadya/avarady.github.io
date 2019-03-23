@@ -2,10 +2,9 @@
 console.log('OK');
 
 
-// Light Gallery
-$('#gallery-1').lightGallery();
-
 // Your Awesome Scripts
+
+
 
 $( document ).ready(function() {
     // Main variables
@@ -14,7 +13,7 @@ $( document ).ready(function() {
       var developmentIsVisible = false;
   
   
-    /* ####### HERO SECTION ####### */
+    // hero 
   
     $('.hero .content .header').delay(500).animate({
       'opacity':'1',
