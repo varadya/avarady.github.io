@@ -335,18 +335,7 @@ body {
   .about-myself .content {
       text-align: center;
   }
-  
-  .about-myself .content h2 {
-      color: #3d3d3d;
-      font-size: 3em;
-      margin-bottom: 20px;
-      -webkit-transform: translateY(-50px) scale(0);
-      transform: translateY(-50px) scale(0);
-      -webkit-transition: transform .7s;
-      -moz-transition: transform .7s;
-      transition: transform .7s;
 
-  }
   
   .about-myself .content .aboutTitleVisible {
       -webkit-transform: translateY(0px) scale(1);
