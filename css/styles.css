@@ -304,17 +304,24 @@ body {
   }
   
   .hero .content .header {
+  /* .hero .content .header {
       position: absolute;
       top: 55%;
       width: 100%;
       -webkit-transform: translate(0%, -50%);
-      transform: translate(0%, -50%);
+      transform: translate(0%, 50%);
       text-align: center;
       opacity: 0;
-  }
+  } */
   
   .hero .content .header .logo {
-    transform: scale(2);
+    transform: scale(.2);
+
+
+
+
+
+     
   }
   
   
