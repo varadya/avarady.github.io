@@ -313,8 +313,8 @@ body {
       opacity: 0;
   }
   
-  .hero .content .header .logo #layer_2{
-    transform: scale(.3);
+  .hero .content .header .logo {
+    transform: scale(2);
   }
   
   
