@@ -13,36 +13,6 @@ body {
 * CSS: https://cssreference.io
 */
 
-/* KEY FRAMES */ 
-@keyframes offset {
-    100% {
-      stroke-dashoffset: 0;
-    }
-  }
-  
-  /* SVG STYLES */
-
-  #logo
- 
-  .logo1{
-    stroke: white;
-    stroke-width:8;
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400; 
-    animation: offset 3s linear forwards;
-   
-  }
-  
-  .logo2{
-    fill:none;
-    stroke:teal;
-    stroke-width:8;
-    stroke-dasharray: 400;
-    stroke-dashoffset: 400;
-    animation: offset 5s linear forwards;
-   
-  }
-
 
 
 
@@ -347,7 +317,7 @@ body {
   text-shadow: 0px 2px 3px #2d2d2d;
   }
   
-  #logo {
+  .logo {
     transform: scale(.3);
   }
   
