@@ -40,24 +40,49 @@
 
     <h1>Contact</h1>
 
-    <form action="https://formspree.io/allisonvarady@gmail.com" method="POST">
-       
-        <!-- Visible -->
-        <label for="name">Name</label>
-        <input type="text" name="name">
-        
-        <label for="_replyto">Email</label>
-        <input type="email" name="_replyto">
-       
-        <label for="comments">Comments</label>
-        <textarea name="comments" id="" cols="30" rows="10"></textarea>
+    <div id="contact">
 
-        <input type="submit" value="Send">
-
-        <!-- Hidden -->
-        <input type="hidden" name="_next" value="/"/>
-
-    </form>
+        <a name="contact-me"></a>
+        <div id="con-left">
+          <h1 class="hideme">Let's Work Together</h1>
+          <p class="hideme">Feel free to reach out to me if you have any questions or comments about the services I offer.</p>
+  
+        </div>
+  
+  
+        <form action="" method="POST">
+  
+          <div class="hideme" id="name">
+            <label for="name">*Name</label>
+            <input type="text" name="name" placeholder="">
+          </div>
+  
+          <div class="hideme" id="email">
+            <label for="_replyto">*Email Address</label>
+            <input type="email" name="_replyto" placeholder="">
+          </div>
+  
+          <div class="hideme" id="message">
+            <label for="message">*Your Message</label>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+          </div>
+  
+          <div id="submit">
+            <input type="submit" value="SEND">
+          </div>
+  
+          <!--  Hidden Field  -->
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_next" value="allisonvarady@gmail.com" />
+  
+        </form>
+  
+      </div>
+  
+      <div id="footer-above"></div>
+      <a id="to-top" href="index.html">
+        <div id="scroll-up"></div>
+      </a>
 
     <!-- jQuery Library via CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
