@@ -347,7 +347,7 @@ body {
   text-shadow: 0px 2px 3px #2d2d2d;
   }
   
-  .logo {
+  #logo {
     transform: scale(.3);
   }
   
