@@ -302,9 +302,6 @@ body {
       width: 100%;
       height: 100%;
       transform: scale(.2);
-      
-
-  }
   
   /* .hero .content .header {
       position: absolute;
@@ -317,14 +314,14 @@ body {
   } */
   
   .hero .content .header .logo {
-    transform: scale(.2);
+    transform: scale(.2); } 
 
 
 
 
 
      
-  }
+ 
   
   
   
@@ -349,7 +346,7 @@ body {
 
   
   
-  /*##### RESUME SECTION #####*/
+  /*  RESUME SECTION */
   .resume {
       background-color: #1B3A30;
       background-size: cover;

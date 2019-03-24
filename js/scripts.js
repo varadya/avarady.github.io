@@ -25,10 +25,15 @@ $( document ).ready(function() {
   
       var bottom_of_window = $(window).scrollTop() + $(window).height();
   
-      /* ##### ABOUT MYSELF SECTION #### */
+      // ABOUT MYSELF SECTION 
       if( bottom_of_window > ($aboutTitle.offset().top + $aboutTitle.outerHeight())){
         $('.about-myself .content h2').addClass('aboutTitleVisible');
       } 
     
-    }); // -- End window scroll --
+    }); // End window scroll 
   });
+
+
+
+
+
