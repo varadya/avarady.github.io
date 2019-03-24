@@ -303,6 +303,7 @@ body {
       height: 100%;
       transform: scale(.2);
   
+
   /* .hero .content .header {
       position: absolute;
       top: 55%;
@@ -313,8 +314,9 @@ body {
       opacity: 0;
   } */
   
-  .hero .content .header .logo {
-    transform: scale(.2); } 
+  
+
+    
 
 
 
