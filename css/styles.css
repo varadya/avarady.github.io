@@ -669,7 +669,7 @@ body {
           display: table;
       }
       .portfolio .content .projects .project .project-title h2 {
-          font-size: 2em;
+          font-size: 1em;
           text-decoration: underline;
           display: table-cell;
           vertical-align: middle;
